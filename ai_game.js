@@ -15,12 +15,12 @@ class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('sky', 'images/player/player_walk_1.png');
-        this.load.image('ground', 'images/ground.png');
-        this.load.image('player', 'images/player/player_walk_1.png');
-        this.load.image('gameOverText', 'images/gameState_assets/gameOver_text.png');
-        this.load.image('retryButton', 'images/gameState_assets/retry_button.png');
-        this.load.image('lizard', 'images/lizard/lizard (1).png');
+        this.load.image('sky', './images/player/player_walk_1.png');
+        this.load.image('ground', './images/ground.png');
+        this.load.image('player', './images/player/player_walk_1.png');
+        this.load.image('gameOverText', './images/gameState_assets/gameOver_text.png');
+        this.load.image('retryButton', './images/gameState_assets/retry_button.png');
+        this.load.image('lizard', './images/lizard/lizard (1).png');
     }
 
     create() {
