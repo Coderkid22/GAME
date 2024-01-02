@@ -48,8 +48,6 @@ class GameScene extends Phaser.Scene {
     }
 }
 
-}
-
 const config = {
     type: Phaser.AUTO,
     width: 800,
