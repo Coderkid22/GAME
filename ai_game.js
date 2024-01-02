@@ -1,5 +1,3 @@
-const Phaser = require('phaser');
-
 class GameScene extends Phaser.Scene {
     constructor() {
         super({ key: 'GameScene' });
@@ -64,4 +62,4 @@ const config = {
     scene: [GameScene]
 };
 
-module.exports = GameScene;
+new Phaser.Game(config);
